@@ -16,7 +16,7 @@ def randhod(hod):
     hodprogr = gethod(hod)
     win = checkwin(hod, hodpc)
     if win == 0:
-        print("Ничья!")
+        print("Ничья!!")
         return hod
     elif win == 1:
         print("Ты победил!")
