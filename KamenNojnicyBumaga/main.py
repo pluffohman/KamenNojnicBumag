@@ -102,7 +102,7 @@ def previoushod_1(hod, hodlist):
     # проверка на победителя
     win = checkwin(hod, hodpc)
     if win == 0:
-        print("Ничья!")
+        print("Ничья!!")
         return 0
     elif win == 1:
         print("Ты победил!")
@@ -138,7 +138,7 @@ def previoushod_2(hod,hodlist):
         print("Ничья!")
         return 0
     elif win == 1:
-        print("Ты победил!")
+        print("Ты победил!!")
         return 1
     elif win == 2:
         print("Победила программа!")
